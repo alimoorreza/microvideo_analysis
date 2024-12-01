@@ -1,0 +1,19 @@
+# -----------------------------------------------
+# upgrade to specific version of pip
+# each pip is associated to its version of python 3.8
+
+python3.8 -m pip install --upgrade pip
+
+# -----------------------------------------------
+# install specific python3.8 version of torch
+python3.8 -m pip install torch torchvision  -f https://download.pytorch.org/whl/torch_stable.html
+
+
+# -----------------------------------------------
+# install specific version of Pillow
+python3.8 -m pip install Pillow==9.1.0
+
+
+# -----------------------------------------------
+# install
+python3.8  -m pip install -e detectron2
