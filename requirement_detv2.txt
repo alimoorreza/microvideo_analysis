@@ -1,0 +1,11 @@
+imagecodecs
+pickle5
+timm
+tensorboardX
+yacs
+cython
+scipy
+shapely
+h5py
+submitit
+scikit-image
